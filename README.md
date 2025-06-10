@@ -30,7 +30,7 @@ Membuat hero panel dengan CSS.
 ### 6. Mengatur Layout Main dan Sidebar
 Mengatur main content dan sidebar dengan CSS float.
 
-![Main dan Sidebar](screenshots/main-sidebar.png)
+![Main dan Sidebar](screnshoot/main sidebar.png)
 
 
 ### 7. Mengatur Footer
