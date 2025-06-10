@@ -42,7 +42,7 @@ Mengatur tampilan footer dengan CSS.
 ### 8. Menambahkan Content Artikel
 Membuat content artikel pada main content.
 
-![Artikel](screenshots/artikel.png)
+![Artikel](screnshoot/artikel.png)
 
 ## Pertanyaan dan Tugas
 
