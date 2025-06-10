@@ -20,7 +20,7 @@ Membuat layout web sederhana dengan semantic element HTML5.
 ### 4. Membuat Navigasi
 Mengatur navigasi pada layout web.
 
-![Navigasi](screenshots/navigasi.png)
+![Navigasi](screnshoot/navigasi.png)
 
 ### 5. Membuat Hero Panel
 Membuat hero panel dengan CSS.
