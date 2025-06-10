@@ -54,4 +54,4 @@ Membuat single layout yang berisi deskripsi, portfolio, dll.
 ### 2. Tambahkan Layout untuk Menu Contact
 Membuat layout dengan form isian: nama, email, message, dll.
 
-![Contact](screenshots/contact.png)
+![Contact](screnshoot/contact.png)
