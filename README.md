@@ -36,7 +36,7 @@ Mengatur main content dan sidebar dengan CSS float.
 ### 7. Mengatur Footer
 Mengatur tampilan footer dengan CSS.
 
-![Footer](screenshots/footer.png)
+![Footer](screnshoot/footer.png)
 
 
 ### 8. Menambahkan Content Artikel
