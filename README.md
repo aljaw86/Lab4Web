@@ -5,7 +5,7 @@
 ### 1. Membuat Box Element
 Membuat box element dengan tag div dan menambahkan CSS float property.
 
-![Box Element](screenshots/element.png)
+![Box Element](screnshoot/box-element.png)
 
 ### 2. Mengatur Clearfix Element
 Menambahkan element div baru dan mengatur property clear pada CSS.
