@@ -15,7 +15,7 @@ Menambahkan element div baru dan mengatur property clear pada CSS.
 ### 3. Membuat Layout Sederhana
 Membuat layout web sederhana dengan semantic element HTML5.
 
-![Layout Web](screenshots/layout web.png)
+![Layout Web](screenshots/layout-web.png)
 
 ### 4. Membuat Navigasi
 Mengatur navigasi pada layout web.
@@ -33,13 +33,13 @@ Mengatur main content dan sidebar dengan CSS float.
 ![Main dan Sidebar](screenshots/main sidebar.png)
 
 
-### 8. Mengatur Footer
+### 7. Mengatur Footer
 Mengatur tampilan footer dengan CSS.
 
 ![Footer](screenshots/footer.png)
 
 
-### 10. Menambahkan Content Artikel
+### 8. Menambahkan Content Artikel
 Membuat content artikel pada main content.
 
 ![Artikel](screenshots/artikel.png)
