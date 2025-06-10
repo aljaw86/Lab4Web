@@ -15,7 +15,7 @@ Menambahkan element div baru dan mengatur property clear pada CSS.
 ### 3. Membuat Layout Sederhana
 Membuat layout web sederhana dengan semantic element HTML5.
 
-![Layout Sederhana](screnshoot/layout )
+![Layout Sederhana](screnshoot/layout-web.png)
 
 ### 4. Membuat Navigasi
 Mengatur navigasi pada layout web.
