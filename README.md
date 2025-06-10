@@ -49,7 +49,7 @@ Membuat content artikel pada main content.
 ### 1. Tambahkan Layout untuk Menu About
 Membuat single layout yang berisi deskripsi, portfolio, dll.
 
-![About](screenshots/about.png)
+![About](screnshoot/about.png)
 
 ### 2. Tambahkan Layout untuk Menu Contact
 Membuat layout dengan form isian: nama, email, message, dll.
