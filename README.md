@@ -25,12 +25,12 @@ Mengatur navigasi pada layout web.
 ### 5. Membuat Hero Panel
 Membuat hero panel dengan CSS.
 
-![Hero panel](screenshots/main-sidebar.png)
+![hero panel](screnshoot/artikel.png)
 
 ### 6. Mengatur Layout Main dan Sidebar
 Mengatur main content dan sidebar dengan CSS float.
 
-![Main dan Sidebar](screnshoot/main sidebar.png)
+![main sidebar](screnshoot/artikel.png)
 
 
 ### 7. Mengatur Footer
