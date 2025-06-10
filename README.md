@@ -10,7 +10,7 @@ Membuat box element dengan tag div dan menambahkan CSS float property.
 ### 2. Mengatur Clearfix Element
 Menambahkan element div baru dan mengatur property clear pada CSS.
 
-![Clearfix](screenshots/clearfix.png)
+![Clearfix](screnshoot/clearfix.png)
 
 ### 3. Membuat Layout Sederhana
 Membuat layout web sederhana dengan semantic element HTML5.
