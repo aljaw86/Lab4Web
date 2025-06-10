@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* CSS tambahan untuk halaman Kontak */
+      .contact-form {
+        margin-bottom: 30px;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+      }
+
+      textarea.form-control {
+        height: 150px;
+        resize: vertical;
+      }
+
+      .btn-submit {
+        background-color: #428bca;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .btn-submit:hover {
+        background-color: #2b83ea;
+      }
+
+      .contact-info {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+      }
+
+      .contact-info h2 {
+        margin-bottom: 15px;
+        color: #428bca;
+      }
+
+      .contact-info p {
+        line-height: 25px;
+        margin-bottom: 10px;
+      }
+
+      .contact-info .info-item {
+        margin-bottom: 10px;
+      }
+
+      .contact-info .info-item i {
+        width: 20px;
+        text-align: center;
+        margin-right: 10px;
+        color: #428bca;
+      }
+
+      .map-container {
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .map-container iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Layout Sederhana</h1>
+      </header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html" class="active">Kontak</a>
+      </nav>
+      <section id="hero">
+        <h1>Kontak Kami</h1>
+        <p>Silakan isi formulir di bawah ini untuk menghubungi kami. Kami akan merespons pesan Anda sesegera mungkin.</p>
+      </section>
+      <section id="wrapper">
+        <section id="main">
+          <div class="contact-form">
+            <h2>Formulir Kontak</h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Nomor Telepon</label>
+                <input type="tel" id="phone" name="phone" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subjek</label>
+                <input type="text" id="subject" name="subject" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h2>Informasi Kontak</h2>
+            <p>Jika Anda memiliki pertanyaan atau ingin berbicara langsung dengan kami, silakan gunakan informasi kontak di bawah ini:</p>
+
+            <div class="info-item"><i>📍</i> Jl. Inspeksi Kalimalang, Tegal Danas, Cikarang Pusat, Bekasi, Jawa Barat 17530</div>
+
+            <div class="info-item"><i>📞</i> (021) 12345678</div>
+
+            <div class="info-item"><i>✉️</i> info@pelitabangsa.ac.id</div>
+
+            <div class="info-item"><i>🕒</i> Senin - Jumat: 08.00 - 16.00 WIB</div>
+
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6100861345857!2d107.14773007418237!3d-6.3099089618891395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0c08ad8d01%3A0x2b18001d1b1371f9!2sUniversitas%20Pelita%20Bangsa!5e0!3m2!1sid!2sid!4v1698123456789!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <aside id="sidebar">
+          <div class="widget-box">
+            <h3 class="title">Jam Operasional</h3>
+            <ul>
+              <li>Senin: 08.00 - 16.00 WIB</li>
+              <li>Selasa: 08.00 - 16.00 WIB</li>
+              <li>Rabu: 08.00 - 16.00 WIB</li>
+              <li>Kamis: 08.00 - 16.00 WIB</li>
+              <li>Jumat: 08.00 - 16.00 WIB</li>
+              <li>Sabtu - Minggu: Tutup</li>
+            </ul>
+          </div>
+          <div class="widget-box">
+            <h3 class="title">Media Sosial</h3>
+            <p>Ikuti kami di media sosial untuk mendapatkan informasi terbaru:</p>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+      <footer>
+        <p>&copy; 2023 - Universitas Pelita Bangsa</p>
+      </footer>
+    </div>
+  </body>
+</html>
